@@ -1,5 +1,6 @@
 Summary:	freedesktop.org menu and desktop files specifications support for the awesome window manager
 Summary(hu.UTF-8):	freedesktop.org menü és desktop fájlok támogatása az awesome ablakkezelőhöz
+Summary(pl.UTF-8):	Obsługa menu i plików desktop zgodnych ze specyfikacją freedesktop.org
 Name:		awesome-plugin-freedesktop
 Version:	20090628
 Release:	1
@@ -27,6 +28,11 @@ Fő lehetőségek:
 - freedesktop.org asztal
 - egy (még korlátozott) ikon-keresési funkció.
 
+%description -l pl.UTF-8
+Biblioteka lua dla awesome, która pozwala w konfiguracji awesome dodać obsługę:
+- menu aplikacji zgodne z freedesktop.org
+- plików desktop zgodnych z freedesktop
+- wyszukiwania ikon.
 
 %prep
 %setup -q -n awesome-freedesktop
