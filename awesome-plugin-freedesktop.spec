@@ -2,14 +2,14 @@ Summary:	freedesktop.org menu and desktop files specifications support for the a
 Summary(hu.UTF-8):	freedesktop.org menü és desktop fájlok támogatása az awesome ablakkezelőhöz
 Summary(pl.UTF-8):	Obsługa menu i plików desktop zgodnych ze specyfikacją freedesktop.org
 Name:		awesome-plugin-freedesktop
-Version:	20090628
+Version:	20101103
 Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 URL:		http://github.com/terceiro/awesome-freedesktop/tree/master
 ## git clone git://github.com/terceiro/awesome-freedesktop.git
-Source0:	http://carme.pld-linux.org/~uzsolt/sources/awesome-freedesktop-%{version}.tar.bz2
-# Source0-md5:	274bd2c8fcd906a8fb6570b6557ca65b
+Source0:	http://carme.pld-linux.org/~uzsolt/sources/awesome-freedesktop-%{version}.tar.xz
+# Source0-md5:	f2dedde89d72c3ea173bbefc13e9d001
 Requires:	awesome-plugin-awful
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -35,7 +35,7 @@ Biblioteka lua dla awesome, która pozwala w konfiguracji awesome dodać obsług
 - wyszukiwania ikon.
 
 %prep
-%setup -q -n awesome-freedesktop
+%setup -q -n awesome-freedesktop-%{version}
 
 %install
 rm -rf $RPM_BUILD_ROOT
