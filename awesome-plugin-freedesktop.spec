@@ -3,7 +3,7 @@ Summary(hu.UTF-8):	freedesktop.org menü és desktop fájlok támogatása az awe
 Summary(pl.UTF-8):	Obsługa menu i plików desktop zgodnych ze specyfikacją freedesktop.org
 Name:		awesome-plugin-freedesktop
 Version:	20101103
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 URL:		http://github.com/terceiro/awesome-freedesktop/tree/master
